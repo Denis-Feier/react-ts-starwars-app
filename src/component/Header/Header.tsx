@@ -1,5 +1,7 @@
 import React, { FC, useContext } from 'react';
 
+import {NavLink} from 'react-router-dom';
+
 import classes from './Header.module.css';
 import {SidenavToggleContext} from '../../context/SidenavContext';
 import SidenavContextType from '../../Types/SidenavContextType';
@@ -28,12 +30,30 @@ const Header: FC = () => {
             
             <div className={classes.spacer}/>
 
-            <a className={classes.active}>Films</a>
-            <a>People</a>
-            <a>Planets</a>
-            <a>Species</a>
-            <a>Starships</a>
-            <a>Vehicles</a>
+            <NavLink 
+                to='/' 
+                className={classes.link}
+                exact
+                activeClassName={classes.active}
+            >Films</NavLink>
+
+            <NavLink 
+                to='/people' 
+                className={classes.link}
+                activeClassName={classes.active}
+            >People</NavLink>
+
+            <NavLink 
+                to='/starship' 
+                className={classes.link}
+                activeClassName={classes.active}
+            >Planets</NavLink>
+
+            <NavLink 
+                to='/planets' 
+                className={classes.link}
+                activeClassName={classes.active}
+            >Starships</NavLink>
             
         </div>
     </div>

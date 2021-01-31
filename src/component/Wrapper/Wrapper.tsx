@@ -1,7 +1,11 @@
-import React, {FC} from 'react';
+import React, {FC, ReactNode} from 'react';
 
-export const Wrapper: FC = () => {
-   return <div>
-      
+import classes from './Wrapper.module.css';
+
+const Wrapper: FC<{children: ReactNode}> = (props) => {
+   return <div className={classes.wrapper}>
+      {props.children}
    </div> 
 }
+
+export default Wrapper;

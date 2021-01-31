@@ -12,7 +12,7 @@
     width: 250px;
   }
   
-  .sidenav a {
+  .link {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -21,7 +21,12 @@
     transition: 0.3s;
   }
   
-  .sidenav a:hover {
+  .active {
+    color: #222222;
+    background-color: #f1f1f1;
+  }
+
+  .link:hover {
     color: #f1f1f1;
   }
   
