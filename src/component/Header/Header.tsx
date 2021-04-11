@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 
 import classes from './Header.module.css';
 import {SidenavToggleContext} from '../../context/SidenavContext';
-import SidenavContextType from '../../Types/SidenavContextType';
+import SidenavContextType from '../../types/SidenavContextType';
 
 
 const Header: FC = () => {

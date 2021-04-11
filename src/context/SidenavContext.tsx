@@ -5,7 +5,7 @@ import React, {
     ReactNode
 } from 'react';
 
-import SidenavContextType from '../Types/SidenavContextType';
+import SidenavContextType from '../types/SidenavContextType';
 
 interface SidenavContextProps {
     children: ReactNode

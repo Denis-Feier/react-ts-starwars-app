@@ -1,8 +1,8 @@
-import React, { FC, ReactNode, useContext } from 'react';
+import React, { FC, useContext } from 'react';
 
 import classes from './Modal.module.css';
 import {SidenavToggleContext} from '../../context/SidenavContext';
-import SidenavContextType from '../../Types/SidenavContextType';
+import SidenavContextType from '../../types/SidenavContextType';
 
 
 const Modal: FC = (props) => {

@@ -8,7 +8,7 @@ import Modal from './component/Modal/Modal';
 import Sidenav from './component/Sidenav/Sidnav';
 import Wrapper from './component/Wrapper/Wrapper';
 
-import Routes from './Routes/Routes';
+import Routes from './routes/Routes';
 
 import TaggleSidenavContext from './context/SidenavContext';
 
@@ -24,7 +24,7 @@ const App: FC = () => {
                 <Routes />
             </Wrapper>
           </Router>
-      </ TaggleSidenavContext>
+      </TaggleSidenavContext>
     </div>
   );
 }
