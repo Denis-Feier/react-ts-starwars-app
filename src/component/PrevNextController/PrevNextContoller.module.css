@@ -1,0 +1,22 @@
+.wrapper-controller {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button-controller {
+    height: 36px;
+    border: 1px solid #fff;
+    border-radius: 8%;
+    background-color: rgb(5, 122, 218); 
+    color: #fff;
+    font-weight : bold;
+}
+
+.button-controller:disabled {
+    background-color: rgba(5, 122, 218, 0.24);
+}
+
+.spacer {
+    margin: 6px;
+}
